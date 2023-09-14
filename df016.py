@@ -53,5 +53,8 @@ print( 'Olá, Mundo :\U0001f596', use_aliases=True'))
 import emoji
 
 print(emoji.emojize(":grinning_face_with_big_eyes:"))
+print(emoji.emojize("Python é :polegar_para_cima:", language='pt'))
+print(emoji.emojize("Python é :rosto_risonho:", language='pt'))
+
                     
 
