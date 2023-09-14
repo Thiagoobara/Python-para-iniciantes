@@ -8,5 +8,6 @@ O numero 6.127 tem a parte inteira 6.
 import math
 n = float(input('Digite um numero '))
 r = math.trunc(n)
-print('resultado sera de {} '.format(r))
+print('A porção inteira de {} séra de {}. '.format(n, r))
+
 
