@@ -10,3 +10,4 @@ c = sqrt(r)
 print('Comprimento da hipotenusa séra de {:.2f}'.format(c))
 
 
+
