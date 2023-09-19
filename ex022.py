@@ -14,22 +14,28 @@ Análise
 len(frase) OBS: len vem do ingles comprimento 
 frase.count('o') OBS: você esta pedindo para o programa contar quandos o vão aparecer (letra miniscula)
 frase.count('o',0,13) contagem com fatiamento
-
-
-
-
-
-
-
+find do ingles encotrar, então na frase ele procurara as letras que estra nas ''
+'curso' in frase = ele procura a palavra na frase
+frase.replace('Python', 'Android') do ingles trocar, ele vai achar a palavra Python e subistituira por Androide
+frase.upper() para letras maiusculo 
+frase.lower() para letras minuscula
+frase.capitalize() joga todos os caracter em minuscula menos a primeira letra
+frase.title() onde estiver espaço ele vai quebrar a palavra e tranformar a 1° letra em maiuscula
+frase.strip() ele tira o espaço do começo e do fim da frase nunca do meio
+frase.rstrip() ele tira o spaco do começo da frase porem so da direita
+frase.lstrip() ele tira o spaco do começo da frase porem so da esquerda
+frase.split() ocoore nos espaços, ele divide cada palvra e ms rece index novo faz um lista com cada palavra
+'-'.join(frase) ele pega a lista agrupa na msm frase e cada palvra que ele juntou vai ser separada po -
 '''
+
 frase =('Curso em Video Python')
-print(frase[9])
+print(frase[3])
 frase =('Curso em Video Python')
-print(frase[9:13])
+print(frase[3:13])
 frase =('Curso em Video Python')
 print(frase[9:21:2])
 frase =('Curso em Video Python')
-print(frase[:5])
+print(frase[:13])
 frase =('Curso em Video Python')
 print(frase[5:])
 frase =('Curso em Video Python')
@@ -40,3 +46,9 @@ frase =('Curso em Video Python')
 print(frase.count('o'))
 frase =('Curso em Video Python')
 print(frase.count('o',0,13))
+frase = ('Curso em Video Python')
+print = frase.find('deo')
+frase = ('Curso em Video Python')
+print = 'curso' in frase
+#frase = ('Curso em Video Python')
+#print(frase.replace('Python', 'Android'))
