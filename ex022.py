@@ -26,6 +26,13 @@ frase.rstrip() ele tira o spaco do começo da frase porem so da direita
 frase.lstrip() ele tira o spaco do começo da frase porem so da esquerda
 frase.split() ocoore nos espaços, ele divide cada palvra e ms rece index novo faz um lista com cada palavra
 '-'.join(frase) ele pega a lista agrupa na msm frase e cada palvra que ele juntou vai ser separada po -
+print(frase.replace('Python', 'Android')) ele muda a palavra obs str é imutavel a não ser que use um função de tranformação de srt
+print(frase.find('Video')) nos mostra a posição em numero da palavra 
+print(frase.lower().find('video')) ele vai tranformar todas em minuscula e achar .
+print(frase.split()) ele separa em lista 
+dividido = frase.split()
+print(dividido[0]) ele busca na lista a primeira palavra
+print(dividido[2],[3]) pela o dividido 2 e me mostre a letra 3
 '''
 
 frase =('Curso em Video Python')
@@ -50,5 +57,7 @@ frase = ('Curso em Video Python')
 print = frase.find('deo')
 frase = ('Curso em Video Python')
 print = 'curso' in frase
-#frase = ('Curso em Video Python')
-#print(frase.replace('Python', 'Android'))
+frase = ('Curso em Video Python')
+frase = ('Curso em Video Python')
+frase = frase.replace('Python', 'Android')
+print(frase)
