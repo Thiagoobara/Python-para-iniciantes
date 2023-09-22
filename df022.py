@@ -10,5 +10,8 @@ print(nome.upper())
 print(nome.lower())
 n2 = len(nome.replace(" " ,"" ))
 print(n2)
+n3 = nome.split()
+n4 = len(n3[0])
+print(n4)
 
 
