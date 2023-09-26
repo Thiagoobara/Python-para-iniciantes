@@ -5,13 +5,10 @@ O nome com todas as letras minuscula
 Quantas letras ao todo sem considerar espaço
 Quantas letras tem o 1° nome
 '''
-nome = input(' Digite seu nome completo ')
-print(nome.upper())
-print(nome.lower())
-n2 = len(nome.replace(" " ,"" ))
-print(n2)
-n3 = nome.split()
-n4 = len(n3[0])
-print(n4)
+nome = str(input(' Digite seu nome completo ')).strip()
+print('Seu nome em letras maiusculas será: {}'.format(nome.upper()))
+print('Seu nome em letras minusculas será: {}'.format(nome.lower()))
+print('A quantidade de Letras é de {}'.format(len(nome)-nome.count(' ')))     
+print('Seu primeiro nome é composto por {} letras.'.format(nome.find(' ')))
 
 
