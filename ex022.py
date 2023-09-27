@@ -60,4 +60,4 @@ print = 'curso' in frase
 frase = ('Curso em Video Python')
 frase = ('Curso em Video Python')
 frase = frase.replace('Python', 'Android')
-print(frase)
+
