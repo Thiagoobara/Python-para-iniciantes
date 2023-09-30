@@ -5,8 +5,9 @@ import random
 num = int(input('Digite um numero de 0 a 5 '))
 ale = random.randint(0, 5)
 if num == ale :
-    print('Parabéns ')
+    print('Parabéns o numero era {}'.format(ale))
 else:
-    print('Errou')
+    print('Errou o numero aleatorio era {}'.format(ale))
+
 
 
